@@ -16,7 +16,6 @@ nav{
 header{
     margin: 0 auto;
     padding-top: 10px;
-    padding-left: 7.5%;
     
 }
 h1{margin: 0 auto; font-family: 'Cinzel', serif;}
@@ -27,20 +26,27 @@ main{
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin: 0 auto;
-    height: auto;
+    min-height: auto;
     width: 80%;
     max-width: 2000px;
 }
 main p{margin: 0px; font-family: 'Georgia';}
 
 footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #c2cf9f;
     height: 160px;
-    width: 100vw
+    width: 100vw;
 }
+
+footer p{margin: 2px}
 
 hr{margin: 50px;}
 
+.logo{height: 95%; width: auto;}
 .topbar{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;height: 7vh;min-height: 32px; padding:0vh 0vw; ;backdrop-filter:saturate(180%) blur(8px)}
 .topbarbuttons{position:sticky;top:0;z-index:10;display:flex;justify-content:flex-end;align-items:center;height: 100%; width: 75%}
 buttons button{height: 100%;width: 20%; background-color: #99aa6f; border: 0; margin: 0;font-family: 'Cinzel'; font-weight: 500;}
