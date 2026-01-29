@@ -8,52 +8,161 @@
     <meta name="author" content="Ferran i Arnau">
     <meta name="description" content="plantilla">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="#">
+    <link rel="icon" type="image/x-icon" href="/img/alomancia/Harmonium.svg">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
-<body>
-    <nav class="topbar">
-        <logo class="logo">
-            <a href="/index.html"><img src="./img/logobg.png"></a>
-        </logo>
-
-        <buttons class="topbarbuttons">
-            <button onclick="location.href='./posts.html'">Posts</button>
-            <button onclick="location.href='./register.html'">Registro</button>
-            <button onclick="location.href='./login.html'">Inicio de sesión</button>
-            <button onclick="location.href='./about.html'">Sobre nosotros</button>
-            <button onclick="location.href='./contact.html'">Contacto</button>
-        </buttons>
-    </nav>
-
-    <header>
-        <h1>Publicaciones</h1>        
-    </header>
-
-    <main>
-        <article>
-            <div class="postheader">
-                <h2>Primera publicación del diario de Elendel!</h2>
-                <p>19/10/2025</p>
+<body class="scroll-container">
+    <div class="container">
+        <nav class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16">
+            <div class="col-16 col-xs-16 col-sm-16 col-md-4 col-lg-6 flex flexJustify" style="height: 100%;">
+                <a href="/index.html" class="flex flexJustify">
+                    <img src="./img/logobg.png">
+                </a>
             </div>
+
+            <buttons class="col-16 col-xs-16 col-sm-16 col-md-12 col-lg-10 container height100">
+                <button class="col-16 col-xs-16 col-sm-8 col-md-2 col-lg-2"
+                    onclick="location.href='./posts.html'">Posts</button>
+                <button class="col-16 col-xs-16 col-sm-8 col-md-3 col-lg-3"
+                    onclick="location.href='./register.html'">Registro</button>
+                <button class="col-16 col-xs-16 col-sm-8 col-md-4 col-lg-4"
+                    onclick="location.href='./login.html'">Inicio de sesión</button>
+                <button class="col-16 col-xs-16 col-sm-8 col-md-4 col-lg-4"
+                    onclick="location.href='./about.html'">Sobre nosotros</button>
+                <button class="col-16 col-xs-16 col-sm-8 col-md-3 col-lg-3 lonelyBttn"
+                    onclick="location.href='./contact.html'">Contacto</button>
+            </buttons>
+        </nav>
+
+        <header class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16 defaultpadding">
+            <h1>Publicaciones</h1>
+        </header>
+
+        <main class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16 defaultpadding">
+            <article>
+                <div class="postheader">
+                    <h2>Tabla alomantica</h2>
+                    <p>20/1/2026</p>
+                </div>
                 <p>
-                    Este es el primer post del diario de Elendel. Arnau Brunés y Ferran Nofuentes hemos abierto este blog para compartir noticias y datos sobre 
+                    Esta es la tabla alomantica:
+                </p> <br>
+                <table width="100%">
+                    <tr>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Hierro.webp" alt="Hierro" class="alomanticSymbol">
+                            <span>Hierro</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Acero.png" alt="Acero" class="alomanticSymbol">
+                            <span>Acero</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Estaño.webp" alt="Estaño" class="alomanticSymbol">
+                            <span>Estaño</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Pewter.png" alt="Peltre" class="alomanticSymbol">
+                            <span>Peltre</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Zinc.webp" alt="Zinc" class="alomanticSymbol">
+                            <span>Zinc</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Laton.webp" alt="Laton" class="alomanticSymbol">
+                            <span>Laton</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Cobre.webp" alt="Cobre" class="alomanticSymbol">
+                            <span>Cobre</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Bronce.webp" alt="Bronce" class="alomanticSymbol">
+                            <span>Bronce</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Aluminio.webp" alt="Aluminio" class="alomanticSymbol">
+                            <span>Aluminio</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Duralumin.webp" alt="Duralumin" class="alomanticSymbol">
+                            <span>Duralumin</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Cromo.webp" alt="Cromo" class="alomanticSymbol">
+                            <span>Cromo</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Nicrosil.webp" alt="Nicrosil" class="alomanticSymbol">
+                            <span>Nicrosil</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Oro.webp" alt="Oro" class="alomanticSymbol">
+                            <span>Oro</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Electrum.webp" alt="Electro" class="alomanticSymbol">
+                            <span>Electro</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Cadmio.webp" alt="Cadmio" class="alomanticSymbol">
+                            <span>Cadmio</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                            <img src="/img/alomancia/Bendaleo.webp" alt="Bendaleo" class="alomanticSymbol">
+                            <span>Bendaleo</span>
+                        </td>
+                    </tr>
+                </table>
+                <p>
+                    Metales divinos:
+                </p> <br>
+                <table style="width: 100%; border: 0px;" >
+                    <tr class="flex flexJustify">
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-16">
+                            <img src="/img/alomancia/Lerasium.webp" alt="Lerasium" class="alomanticSymbol">
+                            <span>Lerasium</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-16">
+                            <img src="/img/alomancia/Harmonium.svg" alt="Harmonium" class="alomanticSymbol">
+                            <span>Harmonium</span>
+                        </td>
+                        <td class="col-1 col-md-2 col-sm-4 col-xs-16">
+                            <img src="/img/alomancia/Atium.webp" alt="Atium" class="alomanticSymbol">
+                            <span>Atium</span>
+                        </td>
+                    </tr>
+                </table>
+            </article>
+            <article>
+                <div class="postheader">
+                    <h2>Primera publicación del diario de Elendel!</h2>
+                    <p>19/10/2025</p>
+                </div>
+                <p>
+                    Este es el primer post del diario de Elendel. Arnau Brunés y Ferran Nofuentes hemos abierto este
+                    blog
+                    para compartir noticias y datos sobre
                     el Cosmere
                 </p> <br>
                 <p>
-                    Manteneos al corriente de las actualizaciones para no perderos ningún avance y consultad nuestras redes sociales
+                    Manteneos al corriente de las actualizaciones para no perderos ningún avance y consultad nuestras
+                    redes
+                    sociales
                     en el aprartado de <a href="/about.html">Sobre Nosotros</a>!
-                </p> <br>
-            <img src="/img/Kelsier1.png">
-        </article>
-    </main>
+                </p> 
+                <img src="/img/Kelsier1.png" style="margin-top: 16px;">
+            </article>
+        </main>
 
-    <footer>
-        <p>El diario de Elendel, desde el 2025 post-catacendro.</p> <br>
-        <p>Con nuestros alomantes:</p> <br>
-        <p>Ferran Nofuentes — Arnau Brunés</p>
-    </footer>
+        <footer class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16">
+            <p>El diario de Elendel, desde el 2025 post-catacendro.</p> <br>
+            <p>Con nuestros alomantes:</p> <br>
+            <p>Ferran Nofuentes — Arnau Brunés</p>
+        </footer>
+    </div>
+
 </body>
-
 </html>

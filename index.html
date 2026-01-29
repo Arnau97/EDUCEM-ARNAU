@@ -8,28 +8,36 @@
     <meta name="author" content="Ferran i Arnau">
     <meta name="description" content="plantilla">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="#">
+    <link rel="icon" type="image/x-icon" href="/img/alomancia/Harmonium.svg">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
-<body>
-    <nav class="topbar">
-        <logo class="logo">
-            <a href="/index.html"><img src="./img/logobg.png"></a>
-        </logo>
+<body class="scroll-container">
+    <div class="container">
+        <nav class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16">
+            <div class="col-16 col-xs-16 col-sm-16 col-md-4 col-lg-6 flex flexJustify" style="height: 100%;">
+                <a href="/index.html" class="flex flexJustify">
+                    <img src="./img/logobg.png">
+                </a>
+            </div>
 
-        <buttons class="topbarbuttons">
-            <button onclick="location.href='./posts.html'">Posts</button>
-            <button onclick="location.href='./register.html'">Registro</button>
-            <button onclick="location.href='./login.html'">Inicio de sesión</button>
-            <button onclick="location.href='./about.html'">Sobre nosotros</button>
-            <button onclick="location.href='./contact.html'">Contacto</button>
-        </buttons>
-    </nav>
+            <buttons class="col-16 col-xs-16 col-sm-16 col-md-12 col-lg-10 container height100">
+                <button class="col-16 col-xs-16 col-sm-8 col-md-2 col-lg-2"
+                    onclick="location.href='./posts.html'">Posts</button>
+                <button class="col-16 col-xs-16 col-sm-8 col-md-3 col-lg-3"
+                    onclick="location.href='./register.html'">Registro</button>
+                <button class="col-16 col-xs-16 col-sm-8 col-md-4 col-lg-4"
+                    onclick="location.href='./login.html'">Inicio de sesión</button>
+                <button class="col-16 col-xs-16 col-sm-8 col-md-4 col-lg-4"
+                    onclick="location.href='./about.html'">Sobre nosotros</button>
+                <button class="col-16 col-xs-16 col-sm-8 col-md-3 col-lg-3 lonelyBttn"
+                    onclick="location.href='./contact.html'">Contacto</button>
+            </buttons>
+        </nav>
 
-    <header>
-        <h1>El diario de Elendel</h1>        
-    </header>
+        <header class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16 defaultpadding">
+                <h1>El diario de Elendel</h1>        
+        </header>
 
     <main>
         <h2>Bienvenido a la banda, alomante!</h2>
