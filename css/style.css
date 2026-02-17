@@ -127,6 +127,24 @@ buttons button {
   font-weight: 500;
 }
 
+.loginButton {
+  background-color: #99aa6f;
+  border: 0;
+  margin: 0;
+  font-family: 'Cinzel';
+  font-weight: 500;
+  height: 28px;
+}
+
+.loginButton:hover {
+  background-color: #b0c284;
+}
+
+.checkbox {
+  margin-left: 0;
+  accent-color: #99aa6f;
+}
+
 buttons button:hover {
   background-color: #b0c284;
 }
@@ -172,6 +190,14 @@ article {
 .defaultpadding{
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.textBox {
+  height: 28px;
+  margin-bottom: 12px;
+  border: 1px solid #99aa6f;
+  outline-color: #99aa6f;
+  box-shadow: none;
 }
 
 /* Columnes (16-grid) */
@@ -316,6 +342,8 @@ article {
     margin-left: 0vw;
   }
 }
+
+
 
 /* Columnes small */
 @media (min-width: 500px) {
@@ -559,7 +587,13 @@ article {
   justify-content: center;
 }
 
+.row {
+  flex-direction: row;
+}
 
+.col {
+  flex-direction: column;
+}
 
 
 

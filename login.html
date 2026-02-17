@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
-<body class="scroll-container">
+<body class="scroll-container flex col">
     <div class="container">
         <nav class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16">
             <div class="col-16 col-xs-16 col-sm-16 col-md-4 col-lg-6 flex flexJustify" style="height: 100%;">
@@ -34,20 +34,25 @@
                     onclick="location.href='./contact.html'">Contacto</button>
             </buttons>
         </nav>
-
+    </div>
         <header class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16 defaultpadding">
-            <h1>En cosntrucción</h1>        
+            <h1>Iniciar sesión</h1>        
         </header>
 
-    <main>
-        <form>
-            <input type="text" name="usr" id="opc1" >
-            <input type="password" name="passwd" id="opc2" >
-            <input type="email" name="mail" id="opc3" >
-            <input type="radio" name="form" id="opc4" >
-
-            <input type="submit">
-        </form>
+    <main class="flex flexJustify" style="flex: 1">
+            <div class="flex flexJustify">
+            <form class="flex col" style="width: 500px;">
+                <p>Correo electrónico</p>
+                <input type="email" name="mail" id="opc1" class="textBox">
+                <p>Contraseña</p>
+                <input type="password" name="passwd" id="opc2" class="textBox">
+                <div class="flex">
+                    <input type="checkbox" name="form" id="opc3" class="checkbox" >
+                    <p>Mantener sesion iniciada</p>
+                </div>
+                <input type="submit" class="loginButton" value="Iniciar sesión">
+            </form>
+            </div>
     </main>
 
     <footer>
@@ -55,7 +60,6 @@
         <p>Con nuestros alomantes:</p> <br>
         <p>Ferran Nofuentes — Arnau Brunés</p>
     </footer>
-    </div>
 </body>
 
 </html>
