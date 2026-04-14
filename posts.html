@@ -12,34 +12,29 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
-<body class="scroll-container">
+<body class="scroll-container page-shell">
     <div class="container">
-        <nav class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16">
-            <div class="col-16 col-xs-16 col-sm-16 col-md-4 col-lg-6 flex flexJustify" style="height: 100%;">
-                <a href="/index.html" class="flex flexJustify">
+        <nav class="nav-layout">
+            <div class="nav-brand">
+                <a href="/index.html">
                     <img src="./img/logobg.png">
                 </a>
             </div>
 
-            <buttons class="col-16 col-xs-16 col-sm-16 col-md-12 col-lg-10 container height100">
-                <button class="col-16 col-xs-16 col-sm-8 col-md-2 col-lg-2"
-                    onclick="location.href='./posts.html'">Posts</button>
-                <button class="col-16 col-xs-16 col-sm-8 col-md-3 col-lg-3"
-                    onclick="location.href='./register.html'">Registro</button>
-                <button class="col-16 col-xs-16 col-sm-8 col-md-4 col-lg-4"
-                    onclick="location.href='./login.html'">Inicio de sesión</button>
-                <button class="col-16 col-xs-16 col-sm-8 col-md-4 col-lg-4"
-                    onclick="location.href='./about.html'">Sobre nosotros</button>
-                <button class="col-16 col-xs-16 col-sm-8 col-md-3 col-lg-3 lonelyBttn"
-                    onclick="location.href='./contact.html'">Contacto</button>
+            <buttons class="nav-buttons">
+                <button onclick="location.href='./posts.html'">Posts</button>
+                <button onclick="location.href='./register.html'">Registro</button>
+                <button onclick="location.href='./login.html'">Inicio de sesión</button>
+                <button onclick="location.href='./about.html'">Sobre nosotros</button>
+                <button onclick="location.href='./contact.html'">Contacto</button>
             </buttons>
         </nav>
 
-        <header class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16 defaultpadding">
+        <header class="defaultpadding">
             <h1>Publicaciones</h1>
         </header>
 
-        <main class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16 defaultpadding">
+        <main class="defaultpadding">
             <article>
                 <div class="postheader">
                     <h2>Tabla alomantica</h2>
@@ -48,93 +43,89 @@
                 <p>
                     Esta es la tabla alomantica:
                 </p> <br>
-                <table width="100%">
-                    <tr>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                <div class="metals-grid full-span">
+                        <div class="metal-card">
                             <img src="/img/alomancia/Hierro.webp" alt="Hierro" class="alomanticSymbol">
                             <span>Hierro</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Acero.png" alt="Acero" class="alomanticSymbol">
                             <span>Acero</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Estaño.webp" alt="Estaño" class="alomanticSymbol">
                             <span>Estaño</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Pewter.png" alt="Peltre" class="alomanticSymbol">
                             <span>Peltre</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Zinc.webp" alt="Zinc" class="alomanticSymbol">
                             <span>Zinc</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Laton.webp" alt="Laton" class="alomanticSymbol">
                             <span>Laton</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Cobre.webp" alt="Cobre" class="alomanticSymbol">
                             <span>Cobre</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Bronce.webp" alt="Bronce" class="alomanticSymbol">
                             <span>Bronce</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Aluminio.webp" alt="Aluminio" class="alomanticSymbol">
                             <span>Aluminio</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Duralumin.webp" alt="Duralumin" class="alomanticSymbol">
                             <span>Duralumin</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Cromo.webp" alt="Cromo" class="alomanticSymbol">
                             <span>Cromo</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Nicrosil.webp" alt="Nicrosil" class="alomanticSymbol">
                             <span>Nicrosil</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Oro.webp" alt="Oro" class="alomanticSymbol">
                             <span>Oro</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Electrum.webp" alt="Electro" class="alomanticSymbol">
                             <span>Electro</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Cadmio.webp" alt="Cadmio" class="alomanticSymbol">
                             <span>Cadmio</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-8">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Bendaleo.webp" alt="Bendaleo" class="alomanticSymbol">
                             <span>Bendaleo</span>
-                        </td>
-                    </tr>
-                </table>
+                        </div>
+                </div>
                 <p>
                     Metales divinos:
                 </p> <br>
-                <table style="width: 100%; border: 0px;" >
-                    <tr class="flex flexJustify">
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-16">
+                <div class="divine-metals-grid full-span">
+                        <div class="metal-card">
                             <img src="/img/alomancia/Lerasium.webp" alt="Lerasium" class="alomanticSymbol">
                             <span>Lerasium</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-16">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Harmonium.svg" alt="Harmonium" class="alomanticSymbol">
                             <span>Harmonium</span>
-                        </td>
-                        <td class="col-1 col-md-2 col-sm-4 col-xs-16">
+                        </div>
+                        <div class="metal-card">
                             <img src="/img/alomancia/Atium.webp" alt="Atium" class="alomanticSymbol">
                             <span>Atium</span>
-                        </td>
-                    </tr>
-                </table>
+                        </div>
+                </div>
             </article>
             <article>
                 <div class="postheader">
@@ -157,7 +148,7 @@
             </article>
         </main>
 
-        <footer class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16">
+        <footer>
             <p>El diario de Elendel, desde el 2025 post-catacendro.</p> <br>
             <p>Con nuestros alomantes:</p> <br>
             <p>Ferran Nofuentes — Arnau Brunés</p>

@@ -12,36 +12,31 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
-<body class="scroll-container flex col">
+<body class="scroll-container page-shell">
     <div class="container">
-        <nav class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16">
-            <div class="col-16 col-xs-16 col-sm-16 col-md-4 col-lg-6 flex flexJustify" style="height: 100%;">
-                <a href="/index.html" class="flex flexJustify">
+        <nav class="nav-layout">
+            <div class="nav-brand">
+                <a href="/index.html">
                     <img src="./img/logobg.png">
                 </a>
             </div>
 
-            <buttons class="col-16 col-xs-16 col-sm-16 col-md-12 col-lg-10 container height100">
-                <button class="col-16 col-xs-16 col-sm-8 col-md-2 col-lg-2"
-                    onclick="location.href='./posts.html'">Posts</button>
-                <button class="col-16 col-xs-16 col-sm-8 col-md-3 col-lg-3"
-                    onclick="location.href='./register.html'">Registro</button>
-                <button class="col-16 col-xs-16 col-sm-8 col-md-4 col-lg-4"
-                    onclick="location.href='./login.html'">Inicio de sesión</button>
-                <button class="col-16 col-xs-16 col-sm-8 col-md-4 col-lg-4"
-                    onclick="location.href='./about.html'">Sobre nosotros</button>
-                <button class="col-16 col-xs-16 col-sm-8 col-md-3 col-lg-3 lonelyBttn"
-                    onclick="location.href='./contact.html'">Contacto</button>
+            <buttons class="nav-buttons">
+                <button onclick="location.href='./posts.html'">Posts</button>
+                <button onclick="location.href='./register.html'">Registro</button>
+                <button onclick="location.href='./login.html'">Inicio de sesión</button>
+                <button onclick="location.href='./about.html'">Sobre nosotros</button>
+                <button onclick="location.href='./contact.html'">Contacto</button>
             </buttons>
         </nav>
     </div>
-        <header class="col-16 col-xs-16 col-sm-16 col-md-16 col-lg-16 defaultpadding">
+        <header class="defaultpadding">
             <h1>Registro</h1>        
         </header>
 
-    <main class="flex flexJustify" style="flex: 1">
-            <div class="flex flexJustify">
-            <form class="flex col" style="width: 500px;">
+    <main class="auth-main">
+            <div class="auth-card">
+            <form class="auth-form">
                 <p>Correo electrónico</p>
                 <input type="email" name="mail" id="opc1" class="textBox">
                 <p>Contraseña</p>
